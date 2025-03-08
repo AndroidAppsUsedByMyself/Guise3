@@ -38,7 +38,7 @@ android {
   buildTypes {
         debug {
             isMinifyEnabled = false
-            isShrinkResources = false
+            isShrinkResources = true
         }
     }
     compileOptions {
